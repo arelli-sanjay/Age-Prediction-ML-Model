@@ -26,10 +26,15 @@ It demonstrates a complete ML pipeline including preprocessing, model training, 
 ------------------------------------------------------------
 
 ##  Folder Structure
+
 age-prediction-ml-model/
+
 │── age_detection_dataset.xlsx
+
 │── Age Detection Model.ipynb
+
 │── requirements.txt
+
 └── README.md
 
 ------------------------------------------------------------
@@ -37,18 +42,26 @@ age-prediction-ml-model/
 ##  How to Run the Project
 
 1️⃣ Install dependencies
-pip install -r requirements.txt
+
+      pip install -r requirements.txt
 
 2️⃣ Open the Jupyter Notebook
-jupyter notebook "Age Detection Model.ipynb"
+
+      jupyter notebook "Age Detection Model.ipynb"
 
 3️⃣ Run all cells
+
 This will:
-• Load the dataset
-• Preprocess features
-• Train the ML model
-• Evaluate performance
-• Show predictions
+
+  • Load the dataset
+
+  • Preprocess features
+
+  • Train the ML model
+
+  • Evaluate performance
+
+  • Show predictions
 
 ------------------------------------------------------------
 
