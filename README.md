@@ -89,7 +89,9 @@ It was developed for learning and demonstrating machine-learning concepts using 
 
 ##  Author
 Arelli Sanjay
+
 Aspiring LLM App Developer & AI Full-Stack Engineer
 
 📧 Email: arellissanjay1105@gmail.com
+
 🔗 LinkedIn: https://www.linkedin.com/in/sanjay-arelli-2b0970383
