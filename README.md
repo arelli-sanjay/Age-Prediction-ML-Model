@@ -13,7 +13,7 @@ I made this project to get some hands-on experience with getting data ready maki
 - It uses height, weight and gender to make this guess
 - It can make guesses in real time
 
-### Data Processing
+### Data Processing 
 - Cleaning up the data
 - Making sure the features are good
 - Making the data normal
