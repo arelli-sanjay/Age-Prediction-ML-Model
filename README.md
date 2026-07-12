@@ -1,97 +1,78 @@
-#  Age Prediction Model | Machine Learning Project
+# The Age Prediction Model
 
-This project predicts a person's age using a machine-learning regression model trained on structured numerical data from an Excel dataset.
-It demonstrates a complete ML pipeline including preprocessing, model training, evaluation, and prediction.
+## Overview
 
-------------------------------------------------------------
+The Age Prediction Model is a project that uses machine learning to guess a persons age based on things like height, weight and gender. This model looks at these things to make a guess about the persons age.
 
-##  Features
-- Predicts age using input numerical features
-- Regression-based ML model
-- Includes data preprocessing & cleaning
-- Proper train–test split
-- Easy-to-run Jupyter Notebook
-- Beginner-friendly, well-structured ML workflow
+I made this project to get some hands-on experience with getting data ready making features, training models and looking at predictions using Python and Scikit-learn.
 
-------------------------------------------------------------
+## Features
 
-##  Tech Stack
+### Guessing Age
+- The Age Prediction Model makes a guess about a persons age based on what they tell us
+- It uses height, weight and gender to make this guess
+- It can make guesses in real time
+
+### Data Processing
+- Cleaning up the data
+- Making sure the features are good
+- Making the data normal
+- Getting the data ready for training and testing
+
+### Machine Learning
+- The Age Prediction Model uses a type of machine learning where we teach it with data
+- We train the model and then check how it does
+- It can make guesses about new people
+
+### Performance Evaluation
+- We split the data into two parts for training and testing
+- We check how the model does
+- We look at how accurate the guesses are
+
+## Tech Stack
+
+### Programming Language
 - Python
-- NumPy
+
+### Libraries
 - Pandas
+- NumPy
 - Scikit-learn
 - Matplotlib
+
+### Tools
 - Jupyter Notebook
+- Git
+- GitHub
+- Visual Studio Code
 
-------------------------------------------------------------
+## How The Project Works ?
 
-##  Folder Structure
+1. First we load the data for the Age Prediction Model.
+2. Then we clean up the data.
+3. Next we make sure the features are good.
+4. After that we split the data into two parts for training and testing.
+5. Then we train the machine learning model.
+6. We enter a persons height, weight and gender.
+7. Finally the Age Prediction Model guesses the persons age.
 
-age-prediction-ml-model/
+## Installation
 
-│── age_detection_dataset.xlsx
+1. First download the project.
+2. Open the project in Jupyter Notebook or Visual Studio Code.
+3. Install the Python libraries you need.
+4. Run all the parts of the project in order.
+5. Enter a persons height, weight and gender to guess their age.
 
-│── Age Detection Model.ipynb
+## What I Learned
 
-│── requirements.txt
+Making the Age Prediction Model helped me understand how machine learning can use numbers and categories to make guesses. It also helped me get better at getting data ready making features, training models and checking how well they do.
 
-└── README.md
+## Author
 
-------------------------------------------------------------
+**ARELLI SANJAY**
+- GitHub: https://github.com/arelli-sanjay
+- Linkedin: https://www.linkedin.com/in/sanjay-arelli-2b0970383/
 
-##  How to Run the Project
-
-1️⃣ Install dependencies
-
-      pip install -r requirements.txt
-
-2️⃣ Open the Jupyter Notebook
-
-      jupyter notebook "Age Detection Model.ipynb"
-
-3️⃣ Run all cells
-
-This will:
-
-  • Load the dataset
-
-  • Preprocess features
-
-  • Train the ML model
-
-  • Evaluate performance
-
-  • Show predictions
-
-------------------------------------------------------------
-
-##  Model Workflow
-1. Load dataset from Excel
-2. Handle missing values & clean data
-3. Feature selection
-4. Split into training and testing sets
-5. Train regression model (e.g., Linear Regression / Random Forest)
-6. Evaluate using MAE, RMSE, R²
-7. Predict age for new input samples
-
-------------------------------------------------------------
-
-## Output
-![alt text](image.png)
-
-------------------------------------------------------------
-
-##  Project Status
-This project is complete and currently not planned for further updates.
-It was developed for learning and demonstrating machine-learning concepts using regression models.
-
-------------------------------------------------------------
-
-##  Author
-Arelli Sanjay
-
-Aspiring LLM App Developer & AI Full-Stack Engineer
-
-📧 Email: arellissanjay1105@gmail.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/sanjay-arelli-2b0970383
+## Support
+If you like The Age Prediction Model consider giving it a star, on GitHub.
